@@ -1,0 +1,339 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial;
+}
+
+.clear {
+    clear: both;
+}
+
+nav {
+    padding: 1%;
+}
+
+a {
+    font-size: 0.8em;
+    margin: 0.5%;
+    text-decoration: none;
+    color: #404044;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    width: 14.5%;
+    margin-left: 43%;
+    margin-top: 7.8%;
+    padding-bottom: 1%;
+}
+
+.search {
+    width: 1%;
+    position: absolute;
+    left: 37.5%;
+    top: 31.7%;
+}
+
+.mic {
+    width: 1.5%;
+    position: absolute;
+    left: 61%;
+    top: 31.4%;
+}
+
+input.main {
+    padding: 5px 2.5%;
+    width: 21%;
+    height: 3vh;
+    border-radius: 15px;
+    display: block;
+    margin: auto;
+    border: 1px solid #dadadb;
+}
+
+footer {
+    border-top: 1px solid #dadadb;
+    width: 98%;
+    padding: 0.7%;
+    position: absolute;
+    bottom: 0;
+}
+
+.right {
+    width: 12%;
+    float: right;
+}
+
+.right a {
+    margin: 5%;
+}
+
+button {
+    background: none;
+    padding: 0.5% 1%;
+    border: none;
+    text-align: center;
+    color: #313131;
+}
+
+button:hover {
+    border: 1px solid #dadadb;
+}
+
+.test {
+    margin-left: 45%;
+    margin-top: 1%;
+}
+
+.gmail,.images {
+    position: absolute;
+    top: 3.5%;
+    right: 7%;
+    font-size: 0.8rem;
+}
+
+.gmail {
+    right: 10%;
+}
+
+/* Seach Page (HTML5) */
+
+.glogo {
+    float: left;
+    width: 4.7%;
+    padding: 1.5% 1%;
+}
+
+input.html {
+    width: 30%;
+    padding: 5px 1.2%;
+    height: 3vh;
+    margin-top: 1.5%;
+    margin-left: 1%;
+    float: left;
+    border: 1px solid #dadadb;
+    border-radius: 15px;
+}
+
+*:focus {
+    outline: none;
+}
+
+.search5,.mic5 {
+    position: absolute;
+    top: 3.75%;
+    left: 38.5%;
+    width: 1.2%;
+}
+
+.mic5 {
+    left: 36.5%
+}
+
+.bg {
+    float: right;
+    margin-right: 6%;
+}
+
+.link {
+    margin-left: 7%;
+    margin-top: 1%;
+}
+
+.link a {
+    color: #1a0dab;
+    font-size: 1.3rem;
+}
+
+.link p.green {
+    color: #006621;
+    margin-left: 0.5%;
+}
+
+.link p {
+    margin-left: 0.5%;
+    color: #545454;
+    font-size: 0.9rem;
+}
+
+.profile {
+    width: 2%;
+    position: absolute;
+    right: 1.5%;
+    top: 2.8%;
+}
+
+svg {
+    width: 1.3%;
+    position: absolute;
+    right: 4.5%;
+    top: 3.5%;
+}
+
+.html5 {
+    position: absolute;
+    width: 22%;
+    right: 30%;
+    top: 15%;
+    border: 1px solid #dadadb;
+    padding: 1%;
+}
+
+.html5 h1 {
+    font-weight: normal
+}
+
+p.content {
+    font-size: 0.9rem;
+}
+
+p.info {
+    color: black;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin: 2% 0;
+}
+
+p.info span {
+    font-weight: normal;
+    color: #1a0dab;
+}
+
+p.info i {
+    font-weight: normal;
+    font-style: normal;
+}
+
+p.content a {
+    font-size: 1rem;
+    color: #1a0dab;
+}
+
+p.sub {
+    color: gray;
+    font-size: 0.9rem;
+}
+
+.pic {
+    width: 100%;
+}
+
+.pic .main {
+    width: 30%;
+}
+
+.pic .one {
+    width: 30%;
+}
+
+.pic .two {
+    width: 35%;
+}
+
+.bar .search {
+    width: 0.8%;
+    top: 8%;
+    left: 8%;
+}
+
+.bar .all {
+    position: absolute;
+    top: 8.2%;
+    left: 9.2%;
+    color: #1a73e8;
+}
+
+.bar .line {
+    width: 3%;
+    position: absolute;
+    top: 10.5%;
+    left: 7.5%;
+    height: 0.3vh;
+    background: #1a73e8;
+}
+
+.bar p:hover {
+    color: #1a73e8;
+    cursor: pointer;
+}
+
+.bar svg {
+    width: .8%;
+    top: 8%;
+    left: 11%;
+}
+
+.bar  {
+    color: #5f6368;
+}
+
+.bar .newsimg {
+    position: absolute;
+    width: 0.8%;
+    top: 8%;
+    left: 11%;
+}
+
+.bar .news {
+    position: absolute;
+    top: 8%;
+    left: 12%;
+}
+
+.bar .imgimg {
+    position: absolute;
+    width: 0.8%;
+    top: 8%;
+    left: 14.8%;
+}
+
+.bar .img {
+    position: absolute;
+    top: 8%;
+    left: 15.8%;
+}
+
+.bar .videosimg {
+    position: absolute;
+    width: 0.8%;
+    top: 8%;
+    left: 19%;
+}
+
+.bar .video {
+    position: absolute;
+    top: 8%;
+    left: 19.95%;
+}
+
+.bar .booksimg {
+    position: absolute;
+    width: 0.8%;
+    top: 8%;
+    left: 23%;
+}
+
+.bar .books {
+    position: absolute;
+    top: 8%;
+    left: 24%;
+}
+
+.bar .moreimg {
+    position: absolute;
+    width: 0.2%;
+    top: 8%;
+    left: 27%;
+}
+
+.bar .more {
+    position: absolute;
+    top: 8%;
+    left: 27.5%;
+}
